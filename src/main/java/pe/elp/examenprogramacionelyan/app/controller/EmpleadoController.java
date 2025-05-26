@@ -12,7 +12,7 @@ import pe.elp.examenprogramacionelyan.app.service.EmpleadoService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/v1/evaluacion")
 public class EmpleadoController {
 
     @Autowired

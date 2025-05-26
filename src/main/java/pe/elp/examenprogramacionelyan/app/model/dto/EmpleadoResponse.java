@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@AllArgsConstructor
 public class EmpleadoResponse {
 
     private String nombre;
@@ -28,34 +27,34 @@ public class EmpleadoResponse {
 		this.departamento = departamento;
 		this.fechaCreacion = fechaCreacion;
 	}
-	public String getNombre() {
+	 String getNombre() {
 		return nombre;
 	}
-	public void setNombre(String nombre) {
+	 void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public String getPuesto() {
+	 String getPuesto() {
 		return puesto;
 	}
-	public void setPuesto(String puesto) {
+	 void setPuesto(String puesto) {
 		this.puesto = puesto;
 	}
-	public Double getSalario() {
+	 Double getSalario() {
 		return salario;
 	}
-	public void setSalario(Double salario) {
+	 void setSalario(Double salario) {
 		this.salario = salario;
 	}
-	public String getDepartamento() {
+	 String getDepartamento() {
 		return departamento;
 	}
-	public void setDepartamento(String departamento) {
+	 void setDepartamento(String departamento) {
 		this.departamento = departamento;
 	}
-	public LocalDateTime getFechaCreacion() {
+	 LocalDateTime getFechaCreacion() {
 		return fechaCreacion;
 	}
-	public void setFechaCreacion(LocalDateTime fechaCreacion) {
+	 void setFechaCreacion(LocalDateTime fechaCreacion) {
 		this.fechaCreacion = fechaCreacion;
 	}
     
